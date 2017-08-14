@@ -1,0 +1,117 @@
+/* 
+  Localizable.strings
+  ThermostatDevicePro
+
+  Created by lyric on 2017/6/7.
+  Copyright © 2017年 lyric. All rights reserved.
+*/
+"CFBundleDisplayName" = "linkon";
+
+
+//AboutWeViewController
+"温控器" = "Thermostat";
+"关于我们" = "About Us";
+"温控器系列秉承科技改变生活的理念，把小产品落地和大数据挖掘完美相结合，为千家万户提供一系列智能舒适、节能环保、价廉物美的智能设备。" = "Thermostat series, adhering to the concept of science and technology change life, the small products fall to the ground and the perfect combination of data mining, provide families with a series of intelligent comfort, energy conservation, environmental protection, quality and cheap smart devices";
+"联系方式" = "Contact";
+
+//AddDeviceViewController
+"设备信息" = "Equipment information";
+"密    码" = "password";
+"序列号" = "serial";
+"请输入12位设备序列号" = "Please enter the 12 equipment serial number";
+"请输入设备密码" = "Please input password";
+"确认" = "OK";
+
+//DeviceInfoEditViewController
+"昵    称" = "name";
+"昵称不能为空" = "Nickname cannot be empty." ;
+
+//DeviceListViewController
+"搜索设备" = "SearchDevice";
+"新设备" = "NewDevice";
+"未连接到WI-IF,请检查手机局域网设置" = "To WI - IF not connected, please check the phone LAN Settings";
+"已配置过的设备" = "The device has been configured";
+"取消" = "cancel";
+"删除设备" = "RemoveDevice";
+"删除设备后，所有相关联动都会受到影响，该设备会恢复到初始值" = "After removing equipment, all related linkage are affected, the device will return to the initial value";
+
+//DeviceTableViewCell
+"待机" = "wait";
+"制热" = "heat";
+"制冷" = "cool";
+"换气" = "air";
+
+//EditNameViewController
+"修改设备名称" = "Modify the device name";
+"完成" = "OK";
+
+//EditPasswordViewController
+"修改设备密码" = "Modify the device password";
+"旧密码" = "oldPassword";
+"新密码" = "newPassword";
+"再次输入新密码" = "new password again";
+"两次新密码输入不一致，请确认" = "Two new password is not consistent, please confirm";
+"原密码错误" = "The original password mistake";
+
+//LeftForAboutViewController
+"系统设置" = "Settings";
+"开始搜索" = "Start";
+"SSID" = "              id";
+"路由器WI-FI密码" = "Wi-fi router passwords";
+"语言" = "Language";
+"修改昵称" = "EditName";
+"修改密码" = "EditPassword";
+"删除" = "Delete";
+"确定" = "OK";
+"密码" = "password";
+
+
+//林肯设备内
+"定时器" = "Timer";
+"  规    划    时    间  " = "  GUI    HUI    SHI    JIN  ";
+"随心所欲" = "MyLifeToLive";
+"添加您的定时" = "AddTimer";
+"开关定时" = "SwitchTimer";
+"阶段定时" = "SomeTimer";
+"一" = "Mon";
+"二" = "Tue";
+"三" = "Wed";
+"四" = "Thu";
+"五" = "Fir";
+"六" = "Sat";
+"日" = "Sun";
+"每日" = "everyday";
+"全" = "All";
+"关" = "OFF";
+"至" = "To";
+"了解详情" = "More";
+"开启后，将室内温度恒温控制在设置的范围内。" = "the indoor temperature constant ";
+"开启后，空调将按曲线自动设置温度。" = "Air conditioning will automatically set  ";
+"温度曲线" = "Temperature curve";
+"智能恒温" = "C-Temperature";
+"智能设置" = "Setting";
+"控制面板" = "ControlPanel";
+
+"低风" = "low";
+"中风" = "mid";
+"高风" = "hig";
+"恒温" = "H-W";
+"节能" = "J-N";
+"离家" = "L-J";
+
+"阶段定时器设置" = "SomeTimeSetting";
+"开关定时器设置" = "SwitchTimeSetting";
+"保存成功" = "Success";
+"保存" = "Save";
+"时间" = "time";
+"重复" = "repeat";
+"开关" = "switch";
+"温度" = "temp";
+"风速" = "wind";
+"模式" = "mode";
+"情景" = "scene";
+"开始时间" = "beginTime";
+"结束时间" = "endTime";
+"24小时曲线" = "24HoursLine";
+"编辑" = "edit";
+

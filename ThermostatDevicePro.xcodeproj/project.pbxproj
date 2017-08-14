@@ -1,0 +1,1293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		572DC2EE1EED0EF50017AF8B /* TimersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 572DC2ED1EED0EF50017AF8B /* TimersViewController.m */; };
+		5761CEC21EE98FAA00396C62 /* ZQPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5761CEC11EE98FAA00396C62 /* ZQPickerView.m */; };
+		57D69B5C1EECE070001638C2 /* SmartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D69B5B1EECE070001638C2 /* SmartTableViewCell.m */; };
+		680AD2CE1EEF8225006D5B85 /* EnumPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 680AD2CD1EEF8225006D5B85 /* EnumPickerView.m */; };
+		680AD2D11EEF8F28006D5B85 /* TimerListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 680AD2D01EEF8F28006D5B85 /* TimerListTableViewCell.m */; };
+		680EE0741EF0C70500A41580 /* 小三角@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 680EE0731EF0C70500A41580 /* 小三角@3x.png */; };
+		680EE0771EF0CFE500A41580 /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 680EE0761EF0CFE500A41580 /* MenuView.m */; };
+		680EE0791EF0DBCD00A41580 /* 24小时温度曲线@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 680EE0781EF0DBCD00A41580 /* 24小时温度曲线@3x.png */; };
+		6821495D1EE8E58F00B4DB58 /* DeviceTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6821495C1EE8E58F00B4DB58 /* DeviceTabBarController.m */; };
+		682149601EE8E78B00B4DB58 /* DeviceOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6821495F1EE8E78B00B4DB58 /* DeviceOperationViewController.m */; };
+		682149631EE8E7BD00B4DB58 /* SmartSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 682149621EE8E7BD00B4DB58 /* SmartSettingViewController.m */; };
+		682149651EE8ED9600B4DB58 /* 智能设置@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 682149641EE8ED9600B4DB58 /* 智能设置@3x.png */; };
+		682149681EE8EFD500B4DB58 /* DeviceNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 682149671EE8EFD500B4DB58 /* DeviceNavigationController.m */; };
+		6821496A1EE8FD3100B4DB58 /* 三点@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 682149691EE8FD3100B4DB58 /* 三点@3x.png */; };
+		6821496D1EE91B7B00B4DB58 /* RoundShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6821496C1EE91B7B00B4DB58 /* RoundShowView.m */; };
+		682149721EE9224600B4DB58 /* banner2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6821496F1EE9224600B4DB58 /* banner2@3x.png */; };
+		682149731EE9224600B4DB58 /* banner3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 682149701EE9224600B4DB58 /* banner3@3x.png */; };
+		682149741EE9224600B4DB58 /* banner_default@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 682149711EE9224600B4DB58 /* banner_default@3x.png */; };
+		682149761EE9299800B4DB58 /* i8_自动.png in Resources */ = {isa = PBXBuildFile; fileRef = 682149751EE9299800B4DB58 /* i8_自动.png */; };
+		6824E9D51EEA363A00EC68A7 /* off@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6824E9D31EEA363A00EC68A7 /* off@3x.png */; };
+		6824E9D61EEA363A00EC68A7 /* on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6824E9D41EEA363A00EC68A7 /* on@3x.png */; };
+		6824E9DC1EEA436900EC68A7 /* 锁(小)@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6824E9DB1EEA436900EC68A7 /* 锁(小)@3x.png */; };
+		6824E9E01EEA469200EC68A7 /* 童锁开关除外@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6824E9DF1EEA469200EC68A7 /* 童锁开关除外@3x.png */; };
+		68472EEF1EF76B0600C95AAA /* UITextField+NumberFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 68472EEE1EF76B0600C95AAA /* UITextField+NumberFormat.m */; };
+		68472EF21EF7A87C00C95AAA /* EnumListString.m in Sources */ = {isa = PBXBuildFile; fileRef = 68472EF11EF7A87C00C95AAA /* EnumListString.m */; };
+		68472EF71EF7B6C100C95AAA /* i8_制热.png in Resources */ = {isa = PBXBuildFile; fileRef = 68472EF31EF7B6C100C95AAA /* i8_制热.png */; };
+		68472EF81EF7B6C100C95AAA /* i8_制冷.png in Resources */ = {isa = PBXBuildFile; fileRef = 68472EF41EF7B6C100C95AAA /* i8_制冷.png */; };
+		68472EF91EF7B6C100C95AAA /* i8_送风.png in Resources */ = {isa = PBXBuildFile; fileRef = 68472EF51EF7B6C100C95AAA /* i8_送风.png */; };
+		68472EFA1EF7B6C100C95AAA /* i8_高斯模糊.png in Resources */ = {isa = PBXBuildFile; fileRef = 68472EF61EF7B6C100C95AAA /* i8_高斯模糊.png */; };
+		68472F011EF7C27400C95AAA /* 湿度@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68472EFF1EF7C27400C95AAA /* 湿度@3x.png */; };
+		68472F021EF7C27400C95AAA /* 室温.png in Resources */ = {isa = PBXBuildFile; fileRef = 68472F001EF7C27400C95AAA /* 室温.png */; };
+		68472F051EF8B07200C95AAA /* UIDevice+Platform.m in Sources */ = {isa = PBXBuildFile; fileRef = 68472F041EF8B07200C95AAA /* UIDevice+Platform.m */; };
+		68472F081EF8C10A00C95AAA /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 68472F071EF8C10A00C95AAA /* UINavigationBar+Awesome.m */; };
+		684BFB811F020A1300E5DBF9 /* AddTimerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 684BFB801F020A1300E5DBF9 /* AddTimerTableViewCell.m */; };
+		685A727A1EE67981007C1C96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 685A72791EE67981007C1C96 /* main.m */; };
+		685A727D1EE67981007C1C96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 685A727C1EE67981007C1C96 /* AppDelegate.m */; };
+		685A72851EE67981007C1C96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 685A72841EE67981007C1C96 /* Assets.xcassets */; };
+		685A72931EE67981007C1C96 /* ThermostatDeviceProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 685A72921EE67981007C1C96 /* ThermostatDeviceProTests.m */; };
+		685A729E1EE67981007C1C96 /* ThermostatDeviceProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 685A729D1EE67981007C1C96 /* ThermostatDeviceProUITests.m */; };
+		685A72AE1EE67A0E007C1C96 /* AppDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 685A72AD1EE67A0E007C1C96 /* AppDataManager.m */; };
+		685A72B21EE67AAF007C1C96 /* ThermostatDeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 685A72B11EE67AAF007C1C96 /* ThermostatDeviceModel.m */; };
+		685A72B51EE68B70007C1C96 /* DeviceTimerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 685A72B41EE68B70007C1C96 /* DeviceTimerModel.m */; };
+		685A72FD1EE6BCB9007C1C96 /* IOS设备图.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A72CA1EE6BCB9007C1C96 /* IOS设备图.png */; };
+		685A73001EE6BCB9007C1C96 /* 关3@.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A72CD1EE6BCB9007C1C96 /* 关3@.png */; };
+		685A73011EE6BCB9007C1C96 /* 切图_213@.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A72CE1EE6BCB9007C1C96 /* 切图_213@.png */; };
+		685A73071EE6BCB9007C1C96 /* 定时@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A72D51EE6BCB9007C1C96 /* 定时@3x.png */; };
+		685A73081EE6BCB9007C1C96 /* 定时关@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A72D61EE6BCB9007C1C96 /* 定时关@3x.png */; };
+		685A73091EE6BCB9007C1C96 /* 定时关闭3@.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A72D71EE6BCB9007C1C96 /* 定时关闭3@.png */; };
+		685A730A1EE6BCB9007C1C96 /* 定时开@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A72D81EE6BCB9007C1C96 /* 定时开@3x.png */; };
+		685A730B1EE6BCB9007C1C96 /* 定时开启3@.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A72D91EE6BCB9007C1C96 /* 定时开启3@.png */; };
+		685A730C1EE6BCB9007C1C96 /* 定时首页定时点击3@.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A72DA1EE6BCB9007C1C96 /* 定时首页定时点击3@.png */; };
+		685A730D1EE6BCB9007C1C96 /* 定时首页定时默认3@.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A72DB1EE6BCB9007C1C96 /* 定时首页定时默认3@.png */; };
+		685A730E1EE6BCB9007C1C96 /* 定时首页阶段定时点击3@.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A72DC1EE6BCB9007C1C96 /* 定时首页阶段定时点击3@.png */; };
+		685A730F1EE6BCB9007C1C96 /* 定时首页阶段定时默认3@.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A72DD1EE6BCB9007C1C96 /* 定时首页阶段定时默认3@.png */; };
+		685A73111EE6BCB9007C1C96 /* 开3@.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A72DF1EE6BCB9007C1C96 /* 开3@.png */; };
+		685A73121EE6BCB9007C1C96 /* 开关@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A72E01EE6BCB9007C1C96 /* 开关@3x.png */; };
+		685A73131EE6BCB9007C1C96 /* 情景@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A72E11EE6BCB9007C1C96 /* 情景@3x.png */; };
+		685A73141EE6BCB9007C1C96 /* 情景_恒温@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A72E21EE6BCB9007C1C96 /* 情景_恒温@3x.png */; };
+		685A73151EE6BCB9007C1C96 /* 情景_离家@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A72E31EE6BCB9007C1C96 /* 情景_离家@3x.png */; };
+		685A73161EE6BCB9007C1C96 /* 情景_节能@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A72E41EE6BCB9007C1C96 /* 情景_节能@3x.png */; };
+		685A73171EE6BCB9007C1C96 /* 智能恒温@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A72E51EE6BCB9007C1C96 /* 智能恒温@3x.png */; };
+		685A73191EE6BCB9007C1C96 /* 模式@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A72E71EE6BCB9007C1C96 /* 模式@3x.png */; };
+		685A731A1EE6BCB9007C1C96 /* 温度曲线@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A72E81EE6BCB9007C1C96 /* 温度曲线@3x.png */; };
+		685A731C1EE6BCB9007C1C96 /* 自动1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A72EA1EE6BCB9007C1C96 /* 自动1@3x.png */; };
+		685A731D1EE6BCB9007C1C96 /* 自动2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A72EB1EE6BCB9007C1C96 /* 自动2@3x.png */; };
+		685A731E1EE6BCB9007C1C96 /* 自动3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A72EC1EE6BCB9007C1C96 /* 自动3@3x.png */; };
+		685A731F1EE6BCB9007C1C96 /* 遥控面板@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A72ED1EE6BCB9007C1C96 /* 遥控面板@3x.png */; };
+		685A73211EE6BCB9007C1C96 /* 锁@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A72EF1EE6BCB9007C1C96 /* 锁@3x.png */; };
+		685A73221EE6BCB9007C1C96 /* 阶段定时关闭3@.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A72F01EE6BCB9007C1C96 /* 阶段定时关闭3@.png */; };
+		685A73231EE6BCB9007C1C96 /* 阶段定时开启3@.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A72F11EE6BCB9007C1C96 /* 阶段定时开启3@.png */; };
+		685A73241EE6BCB9007C1C96 /* 风速@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A72F21EE6BCB9007C1C96 /* 风速@3x.png */; };
+		68693A5A1EEE23B700F41FD7 /* 添加Timer@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68693A591EEE23B700F41FD7 /* 添加Timer@3x.png */; };
+		68693A5D1EEE3CB600F41FD7 /* AddTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68693A5C1EEE3CB600F41FD7 /* AddTimerViewController.m */; };
+		6892D2B41EE7894000F1B860 /* BaseNavigationControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D2AF1EE7894000F1B860 /* BaseNavigationControllerViewController.m */; };
+		6892D2B51EE7894000F1B860 /* BaseTabarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D2B11EE7894000F1B860 /* BaseTabarViewController.m */; };
+		6892D2B61EE7894000F1B860 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D2B31EE7894000F1B860 /* BaseViewController.m */; };
+		6892D2C51EE78AEB00F1B860 /* NSString+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D2BB1EE78AEB00F1B860 /* NSString+Add.m */; };
+		6892D2C61EE78AEC00F1B860 /* UIColor+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D2BD1EE78AEB00F1B860 /* UIColor+Add.m */; };
+		6892D2C71EE78AEC00F1B860 /* UIView+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D2BF1EE78AEB00F1B860 /* UIView+Add.m */; };
+		6892D2C81EE78AEC00F1B860 /* BorderTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D2C21EE78AEB00F1B860 /* BorderTextField.m */; };
+		6892D2C91EE78AEC00F1B860 /* VerticalAlignmentLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D2C41EE78AEB00F1B860 /* VerticalAlignmentLabel.m */; };
+		6892D2E41EE78B1C00F1B860 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D2CD1EE78B1C00F1B860 /* FMDatabase.m */; };
+		6892D2E51EE78B1C00F1B860 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D2CF1EE78B1C00F1B860 /* FMDatabaseAdditions.m */; };
+		6892D2E61EE78B1C00F1B860 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D2D11EE78B1C00F1B860 /* FMDatabasePool.m */; };
+		6892D2E71EE78B1C00F1B860 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D2D31EE78B1C00F1B860 /* FMDatabaseQueue.m */; };
+		6892D2E81EE78B1C00F1B860 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D2D61EE78B1C00F1B860 /* FMResultSet.m */; };
+		6892D2E91EE78B1C00F1B860 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D2D91EE78B1C00F1B860 /* MBProgressHUD+Add.m */; };
+		6892D2EA1EE78B1C00F1B860 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D2DB1EE78B1C00F1B860 /* MBProgressHUD.m */; };
+		6892D2EB1EE78B1C00F1B860 /* ZYBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D2DE1EE78B1C00F1B860 /* ZYBannerCell.m */; };
+		6892D2EC1EE78B1C00F1B860 /* ZYBannerFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D2E01EE78B1C00F1B860 /* ZYBannerFooter.m */; };
+		6892D2ED1EE78B1C00F1B860 /* ZYBannerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6892D2E11EE78B1C00F1B860 /* ZYBannerView.bundle */; };
+		6892D2EE1EE78B1C00F1B860 /* ZYBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D2E31EE78B1C00F1B860 /* ZYBannerView.m */; };
+		6892D2F11EE78B5D00F1B860 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6892D2F01EE78B5D00F1B860 /* libsqlite3.tbd */; };
+		6892D2F21EE78CA800F1B860 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6892D2F41EE78CA800F1B860 /* Localizable.strings */; };
+		6892D3771EE7A18800F1B860 /* DeviceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D3761EE7A18800F1B860 /* DeviceListViewController.m */; };
+		6892D37A1EE7A1DB00F1B860 /* ZQLeftSlipManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D3791EE7A1DB00F1B860 /* ZQLeftSlipManager.m */; };
+		6892D37D1EE7A46B00F1B860 /* DeviceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D37C1EE7A46B00F1B860 /* DeviceTableViewCell.m */; };
+		6892D3801EE7A6C300F1B860 /* LeftForAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D37F1EE7A6C300F1B860 /* LeftForAboutViewController.m */; };
+		6892D3831EE7A70A00F1B860 /* LeftBarTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D3821EE7A70A00F1B860 /* LeftBarTableViewCell.m */; };
+		6892D3861EE7A85700F1B860 /* SheetEditDeviceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D3851EE7A85700F1B860 /* SheetEditDeviceView.m */; };
+		6892D3891EE7A8D800F1B860 /* EditDeviceCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D3881EE7A8D800F1B860 /* EditDeviceCollectionViewCell.m */; };
+		6892D3A01EE7AF4A00F1B860 /* 修改密码.png in Resources */ = {isa = PBXBuildFile; fileRef = 6892D3921EE7AF4A00F1B860 /* 修改密码.png */; };
+		6892D3A11EE7AF4A00F1B860 /* 修改昵称.png in Resources */ = {isa = PBXBuildFile; fileRef = 6892D3931EE7AF4A00F1B860 /* 修改昵称.png */; };
+		6892D3A21EE7AF4A00F1B860 /* 关于.png in Resources */ = {isa = PBXBuildFile; fileRef = 6892D3941EE7AF4A00F1B860 /* 关于.png */; };
+		6892D3A31EE7AF4A00F1B860 /* 删除.png in Resources */ = {isa = PBXBuildFile; fileRef = 6892D3951EE7AF4A00F1B860 /* 删除.png */; };
+		6892D3A41EE7AF4A00F1B860 /* 室温144px.png in Resources */ = {isa = PBXBuildFile; fileRef = 6892D3961EE7AF4A00F1B860 /* 室温144px.png */; };
+		6892D3A51EE7AF4A00F1B860 /* 密码.png in Resources */ = {isa = PBXBuildFile; fileRef = 6892D3971EE7AF4A00F1B860 /* 密码.png */; };
+		6892D3A61EE7AF4A00F1B860 /* 搜索设备.png in Resources */ = {isa = PBXBuildFile; fileRef = 6892D3981EE7AF4A00F1B860 /* 搜索设备.png */; };
+		6892D3A71EE7AF4A00F1B860 /* 更多@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6892D3991EE7AF4A00F1B860 /* 更多@3x.png */; };
+		6892D3A81EE7AF4A00F1B860 /* 添加@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6892D39A1EE7AF4A00F1B860 /* 添加@3x.png */; };
+		6892D3A91EE7AF4A00F1B860 /* 用户名.png in Resources */ = {isa = PBXBuildFile; fileRef = 6892D39B1EE7AF4A00F1B860 /* 用户名.png */; };
+		6892D3AB1EE7AF4A00F1B860 /* 设置.png in Resources */ = {isa = PBXBuildFile; fileRef = 6892D39D1EE7AF4A00F1B860 /* 设置.png */; };
+		6892D3AC1EE7AF4A00F1B860 /* 返回@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6892D39E1EE7AF4A00F1B860 /* 返回@3x.png */; };
+		6892D3AD1EE7AF4A00F1B860 /* 退出.png in Resources */ = {isa = PBXBuildFile; fileRef = 6892D39F1EE7AF4A00F1B860 /* 退出.png */; };
+		6892D3B01EE7CEEB00F1B860 /* SearchDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D3AF1EE7CEEB00F1B860 /* SearchDeviceViewController.m */; };
+		6892D3B31EE7CF2E00F1B860 /* RippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D3B21EE7CF2E00F1B860 /* RippleView.m */; };
+		6892D3B61EE7D17000F1B860 /* DeviceInfoEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D3B51EE7D17000F1B860 /* DeviceInfoEditViewController.m */; };
+		6892D3B91EE7EB4600F1B860 /* EditNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D3B81EE7EB4600F1B860 /* EditNameViewController.m */; };
+		6892D3BF1EE7EF2E00F1B860 /* EditPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D3BE1EE7EF2E00F1B860 /* EditPasswordViewController.m */; };
+		6892D3C21EE7F49400F1B860 /* AboutWeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D3C11EE7F49400F1B860 /* AboutWeViewController.m */; };
+		6892D3C51EE7F50D00F1B860 /* SettingDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D3C41EE7F50D00F1B860 /* SettingDeviceViewController.m */; };
+		6892D3C81EE7F56D00F1B860 /* SettingDeviceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D3C71EE7F56D00F1B860 /* SettingDeviceTableViewCell.m */; };
+		6892D3D11EE7F8F900F1B860 /* 简体中文.png in Resources */ = {isa = PBXBuildFile; fileRef = 6892D3CC1EE7F8F900F1B860 /* 简体中文.png */; };
+		6892D3D21EE7F8F900F1B860 /* 澳柯玛声音@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6892D3CD1EE7F8F900F1B860 /* 澳柯玛声音@3x.png */; };
+		6892D3D31EE7F8F900F1B860 /* English.png in Resources */ = {isa = PBXBuildFile; fileRef = 6892D3CE1EE7F8F900F1B860 /* English.png */; };
+		6892D3D41EE7F8F900F1B860 /* 澳柯玛语言@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6892D3CF1EE7F8F900F1B860 /* 澳柯玛语言@3x.png */; };
+		6892D3D51EE7F8F900F1B860 /* 澳柯玛震动@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6892D3D01EE7F8F900F1B860 /* 澳柯玛震动@3x.png */; };
+		6892D3D81EE7FB5700F1B860 /* AddDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892D3D71EE7FB5700F1B860 /* AddDeviceViewController.m */; };
+		6892D3DA1EE8082700F1B860 /* 箭头.png in Resources */ = {isa = PBXBuildFile; fileRef = 6892D3D91EE8082700F1B860 /* 箭头.png */; };
+		68EEBC751F02455000F4B36D /* 向下箭头.png in Resources */ = {isa = PBXBuildFile; fileRef = 68EEBC741F02455000F4B36D /* 向下箭头.png */; };
+		68EEBC771F02496600F4B36D /* 63下拉显示.png in Resources */ = {isa = PBXBuildFile; fileRef = 68EEBC761F02496600F4B36D /* 63下拉显示.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		685A728F1EE67981007C1C96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 685A726D1EE67981007C1C96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685A72741EE67981007C1C96;
+			remoteInfo = ThermostatDevicePro;
+		};
+		685A729A1EE67981007C1C96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 685A726D1EE67981007C1C96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685A72741EE67981007C1C96;
+			remoteInfo = ThermostatDevicePro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		572DC2EC1EED0EF50017AF8B /* TimersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimersViewController.h; sourceTree = "<group>"; };
+		572DC2ED1EED0EF50017AF8B /* TimersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimersViewController.m; sourceTree = "<group>"; };
+		5761CEC01EE98FAA00396C62 /* ZQPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQPickerView.h; sourceTree = "<group>"; };
+		5761CEC11EE98FAA00396C62 /* ZQPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQPickerView.m; sourceTree = "<group>"; };
+		57D69B5A1EECE070001638C2 /* SmartTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartTableViewCell.h; sourceTree = "<group>"; };
+		57D69B5B1EECE070001638C2 /* SmartTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartTableViewCell.m; sourceTree = "<group>"; };
+		680AD2CC1EEF8225006D5B85 /* EnumPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnumPickerView.h; sourceTree = "<group>"; };
+		680AD2CD1EEF8225006D5B85 /* EnumPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnumPickerView.m; sourceTree = "<group>"; };
+		680AD2CF1EEF8F28006D5B85 /* TimerListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerListTableViewCell.h; sourceTree = "<group>"; };
+		680AD2D01EEF8F28006D5B85 /* TimerListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerListTableViewCell.m; sourceTree = "<group>"; };
+		680EE0731EF0C70500A41580 /* 小三角@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "小三角@3x.png"; sourceTree = "<group>"; };
+		680EE0751EF0CFE500A41580 /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
+		680EE0761EF0CFE500A41580 /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
+		680EE0781EF0DBCD00A41580 /* 24小时温度曲线@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "24小时温度曲线@3x.png"; sourceTree = "<group>"; };
+		6821495B1EE8E58F00B4DB58 /* DeviceTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceTabBarController.h; sourceTree = "<group>"; };
+		6821495C1EE8E58F00B4DB58 /* DeviceTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceTabBarController.m; sourceTree = "<group>"; };
+		6821495E1EE8E78B00B4DB58 /* DeviceOperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceOperationViewController.h; sourceTree = "<group>"; };
+		6821495F1EE8E78B00B4DB58 /* DeviceOperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceOperationViewController.m; sourceTree = "<group>"; };
+		682149611EE8E7BD00B4DB58 /* SmartSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartSettingViewController.h; sourceTree = "<group>"; };
+		682149621EE8E7BD00B4DB58 /* SmartSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartSettingViewController.m; sourceTree = "<group>"; };
+		682149641EE8ED9600B4DB58 /* 智能设置@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "智能设置@3x.png"; sourceTree = "<group>"; };
+		682149661EE8EFD500B4DB58 /* DeviceNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceNavigationController.h; sourceTree = "<group>"; };
+		682149671EE8EFD500B4DB58 /* DeviceNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceNavigationController.m; sourceTree = "<group>"; };
+		682149691EE8FD3100B4DB58 /* 三点@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "三点@3x.png"; sourceTree = "<group>"; };
+		6821496B1EE91B7B00B4DB58 /* RoundShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundShowView.h; sourceTree = "<group>"; };
+		6821496C1EE91B7B00B4DB58 /* RoundShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundShowView.m; sourceTree = "<group>"; };
+		6821496F1EE9224600B4DB58 /* banner2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner2@3x.png"; sourceTree = "<group>"; };
+		682149701EE9224600B4DB58 /* banner3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner3@3x.png"; sourceTree = "<group>"; };
+		682149711EE9224600B4DB58 /* banner_default@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner_default@3x.png"; sourceTree = "<group>"; };
+		682149751EE9299800B4DB58 /* i8_自动.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "i8_自动.png"; sourceTree = "<group>"; };
+		6824E9D31EEA363A00EC68A7 /* off@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "off@3x.png"; sourceTree = "<group>"; };
+		6824E9D41EEA363A00EC68A7 /* on@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "on@3x.png"; sourceTree = "<group>"; };
+		6824E9DB1EEA436900EC68A7 /* 锁(小)@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "锁(小)@3x.png"; sourceTree = "<group>"; };
+		6824E9DF1EEA469200EC68A7 /* 童锁开关除外@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "童锁开关除外@3x.png"; sourceTree = "<group>"; };
+		68472EED1EF76B0600C95AAA /* UITextField+NumberFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+NumberFormat.h"; sourceTree = "<group>"; };
+		68472EEE1EF76B0600C95AAA /* UITextField+NumberFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+NumberFormat.m"; sourceTree = "<group>"; };
+		68472EF01EF7A87C00C95AAA /* EnumListString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnumListString.h; sourceTree = "<group>"; };
+		68472EF11EF7A87C00C95AAA /* EnumListString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnumListString.m; sourceTree = "<group>"; };
+		68472EF31EF7B6C100C95AAA /* i8_制热.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "i8_制热.png"; sourceTree = "<group>"; };
+		68472EF41EF7B6C100C95AAA /* i8_制冷.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "i8_制冷.png"; sourceTree = "<group>"; };
+		68472EF51EF7B6C100C95AAA /* i8_送风.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "i8_送风.png"; sourceTree = "<group>"; };
+		68472EF61EF7B6C100C95AAA /* i8_高斯模糊.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "i8_高斯模糊.png"; sourceTree = "<group>"; };
+		68472EFF1EF7C27400C95AAA /* 湿度@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "湿度@3x.png"; sourceTree = "<group>"; };
+		68472F001EF7C27400C95AAA /* 室温.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "室温.png"; sourceTree = "<group>"; };
+		68472F031EF8B07200C95AAA /* UIDevice+Platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Platform.h"; sourceTree = "<group>"; };
+		68472F041EF8B07200C95AAA /* UIDevice+Platform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Platform.m"; sourceTree = "<group>"; };
+		68472F061EF8C10A00C95AAA /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
+		68472F071EF8C10A00C95AAA /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
+		684BFB7F1F020A1300E5DBF9 /* AddTimerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTimerTableViewCell.h; sourceTree = "<group>"; };
+		684BFB801F020A1300E5DBF9 /* AddTimerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTimerTableViewCell.m; sourceTree = "<group>"; };
+		685A72751EE67981007C1C96 /* ThermostatDevicePro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThermostatDevicePro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		685A72791EE67981007C1C96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		685A727B1EE67981007C1C96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		685A727C1EE67981007C1C96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		685A72841EE67981007C1C96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		685A72891EE67981007C1C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		685A728E1EE67981007C1C96 /* ThermostatDeviceProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThermostatDeviceProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		685A72921EE67981007C1C96 /* ThermostatDeviceProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThermostatDeviceProTests.m; sourceTree = "<group>"; };
+		685A72941EE67981007C1C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		685A72991EE67981007C1C96 /* ThermostatDeviceProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThermostatDeviceProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		685A729D1EE67981007C1C96 /* ThermostatDeviceProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThermostatDeviceProUITests.m; sourceTree = "<group>"; };
+		685A729F1EE67981007C1C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		685A72AC1EE67A0E007C1C96 /* AppDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDataManager.h; sourceTree = "<group>"; };
+		685A72AD1EE67A0E007C1C96 /* AppDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDataManager.m; sourceTree = "<group>"; };
+		685A72B01EE67AAF007C1C96 /* ThermostatDeviceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThermostatDeviceModel.h; sourceTree = "<group>"; };
+		685A72B11EE67AAF007C1C96 /* ThermostatDeviceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThermostatDeviceModel.m; sourceTree = "<group>"; };
+		685A72B31EE68B70007C1C96 /* DeviceTimerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceTimerModel.h; sourceTree = "<group>"; };
+		685A72B41EE68B70007C1C96 /* DeviceTimerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceTimerModel.m; sourceTree = "<group>"; };
+		685A72B61EE6980D007C1C96 /* EnumList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnumList.h; sourceTree = "<group>"; };
+		685A72CA1EE6BCB9007C1C96 /* IOS设备图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IOS设备图.png"; sourceTree = "<group>"; };
+		685A72CD1EE6BCB9007C1C96 /* 关3@.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关3@.png"; sourceTree = "<group>"; };
+		685A72CE1EE6BCB9007C1C96 /* 切图_213@.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "切图_213@.png"; sourceTree = "<group>"; };
+		685A72D51EE6BCB9007C1C96 /* 定时@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定时@3x.png"; sourceTree = "<group>"; };
+		685A72D61EE6BCB9007C1C96 /* 定时关@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定时关@3x.png"; sourceTree = "<group>"; };
+		685A72D71EE6BCB9007C1C96 /* 定时关闭3@.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定时关闭3@.png"; sourceTree = "<group>"; };
+		685A72D81EE6BCB9007C1C96 /* 定时开@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定时开@3x.png"; sourceTree = "<group>"; };
+		685A72D91EE6BCB9007C1C96 /* 定时开启3@.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定时开启3@.png"; sourceTree = "<group>"; };
+		685A72DA1EE6BCB9007C1C96 /* 定时首页定时点击3@.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定时首页定时点击3@.png"; sourceTree = "<group>"; };
+		685A72DB1EE6BCB9007C1C96 /* 定时首页定时默认3@.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定时首页定时默认3@.png"; sourceTree = "<group>"; };
+		685A72DC1EE6BCB9007C1C96 /* 定时首页阶段定时点击3@.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定时首页阶段定时点击3@.png"; sourceTree = "<group>"; };
+		685A72DD1EE6BCB9007C1C96 /* 定时首页阶段定时默认3@.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定时首页阶段定时默认3@.png"; sourceTree = "<group>"; };
+		685A72DF1EE6BCB9007C1C96 /* 开3@.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开3@.png"; sourceTree = "<group>"; };
+		685A72E01EE6BCB9007C1C96 /* 开关@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开关@3x.png"; sourceTree = "<group>"; };
+		685A72E11EE6BCB9007C1C96 /* 情景@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "情景@3x.png"; sourceTree = "<group>"; };
+		685A72E21EE6BCB9007C1C96 /* 情景_恒温@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "情景_恒温@3x.png"; sourceTree = "<group>"; };
+		685A72E31EE6BCB9007C1C96 /* 情景_离家@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "情景_离家@3x.png"; sourceTree = "<group>"; };
+		685A72E41EE6BCB9007C1C96 /* 情景_节能@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "情景_节能@3x.png"; sourceTree = "<group>"; };
+		685A72E51EE6BCB9007C1C96 /* 智能恒温@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "智能恒温@3x.png"; sourceTree = "<group>"; };
+		685A72E71EE6BCB9007C1C96 /* 模式@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "模式@3x.png"; sourceTree = "<group>"; };
+		685A72E81EE6BCB9007C1C96 /* 温度曲线@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "温度曲线@3x.png"; sourceTree = "<group>"; };
+		685A72EA1EE6BCB9007C1C96 /* 自动1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "自动1@3x.png"; sourceTree = "<group>"; };
+		685A72EB1EE6BCB9007C1C96 /* 自动2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "自动2@3x.png"; sourceTree = "<group>"; };
+		685A72EC1EE6BCB9007C1C96 /* 自动3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "自动3@3x.png"; sourceTree = "<group>"; };
+		685A72ED1EE6BCB9007C1C96 /* 遥控面板@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "遥控面板@3x.png"; sourceTree = "<group>"; };
+		685A72EF1EE6BCB9007C1C96 /* 锁@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "锁@3x.png"; sourceTree = "<group>"; };
+		685A72F01EE6BCB9007C1C96 /* 阶段定时关闭3@.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "阶段定时关闭3@.png"; sourceTree = "<group>"; };
+		685A72F11EE6BCB9007C1C96 /* 阶段定时开启3@.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "阶段定时开启3@.png"; sourceTree = "<group>"; };
+		685A72F21EE6BCB9007C1C96 /* 风速@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "风速@3x.png"; sourceTree = "<group>"; };
+		68693A591EEE23B700F41FD7 /* 添加Timer@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加Timer@3x.png"; sourceTree = "<group>"; };
+		68693A5B1EEE3CB600F41FD7 /* AddTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTimerViewController.h; sourceTree = "<group>"; };
+		68693A5C1EEE3CB600F41FD7 /* AddTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTimerViewController.m; sourceTree = "<group>"; };
+		6892D2AE1EE7894000F1B860 /* BaseNavigationControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationControllerViewController.h; sourceTree = "<group>"; };
+		6892D2AF1EE7894000F1B860 /* BaseNavigationControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationControllerViewController.m; sourceTree = "<group>"; };
+		6892D2B01EE7894000F1B860 /* BaseTabarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabarViewController.h; sourceTree = "<group>"; };
+		6892D2B11EE7894000F1B860 /* BaseTabarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabarViewController.m; sourceTree = "<group>"; };
+		6892D2B21EE7894000F1B860 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		6892D2B31EE7894000F1B860 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		6892D2B71EE789E400F1B860 /* AppUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUtil.h; sourceTree = "<group>"; };
+		6892D2B81EE78A1300F1B860 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6892D2BA1EE78AEB00F1B860 /* NSString+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Add.h"; sourceTree = "<group>"; };
+		6892D2BB1EE78AEB00F1B860 /* NSString+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Add.m"; sourceTree = "<group>"; };
+		6892D2BC1EE78AEB00F1B860 /* UIColor+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Add.h"; sourceTree = "<group>"; };
+		6892D2BD1EE78AEB00F1B860 /* UIColor+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Add.m"; sourceTree = "<group>"; };
+		6892D2BE1EE78AEB00F1B860 /* UIView+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Add.h"; sourceTree = "<group>"; };
+		6892D2BF1EE78AEB00F1B860 /* UIView+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Add.m"; sourceTree = "<group>"; };
+		6892D2C11EE78AEB00F1B860 /* BorderTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderTextField.h; sourceTree = "<group>"; };
+		6892D2C21EE78AEB00F1B860 /* BorderTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorderTextField.m; sourceTree = "<group>"; };
+		6892D2C31EE78AEB00F1B860 /* VerticalAlignmentLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalAlignmentLabel.h; sourceTree = "<group>"; };
+		6892D2C41EE78AEB00F1B860 /* VerticalAlignmentLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalAlignmentLabel.m; sourceTree = "<group>"; };
+		6892D2CC1EE78B1C00F1B860 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		6892D2CD1EE78B1C00F1B860 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		6892D2CE1EE78B1C00F1B860 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		6892D2CF1EE78B1C00F1B860 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		6892D2D01EE78B1C00F1B860 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		6892D2D11EE78B1C00F1B860 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		6892D2D21EE78B1C00F1B860 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		6892D2D31EE78B1C00F1B860 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		6892D2D41EE78B1C00F1B860 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		6892D2D51EE78B1C00F1B860 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		6892D2D61EE78B1C00F1B860 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		6892D2D81EE78B1C00F1B860 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+		6892D2D91EE78B1C00F1B860 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		6892D2DA1EE78B1C00F1B860 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		6892D2DB1EE78B1C00F1B860 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		6892D2DD1EE78B1C00F1B860 /* ZYBannerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBannerCell.h; sourceTree = "<group>"; };
+		6892D2DE1EE78B1C00F1B860 /* ZYBannerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBannerCell.m; sourceTree = "<group>"; };
+		6892D2DF1EE78B1C00F1B860 /* ZYBannerFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBannerFooter.h; sourceTree = "<group>"; };
+		6892D2E01EE78B1C00F1B860 /* ZYBannerFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBannerFooter.m; sourceTree = "<group>"; };
+		6892D2E11EE78B1C00F1B860 /* ZYBannerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYBannerView.bundle; sourceTree = "<group>"; };
+		6892D2E21EE78B1C00F1B860 /* ZYBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBannerView.h; sourceTree = "<group>"; };
+		6892D2E31EE78B1C00F1B860 /* ZYBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBannerView.m; sourceTree = "<group>"; };
+		6892D2F01EE78B5D00F1B860 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		6892D2F61EE78CC600F1B860 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		6892D2F71EE78CF400F1B860 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6892D3751EE7A18800F1B860 /* DeviceListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceListViewController.h; sourceTree = "<group>"; };
+		6892D3761EE7A18800F1B860 /* DeviceListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceListViewController.m; sourceTree = "<group>"; };
+		6892D3781EE7A1DB00F1B860 /* ZQLeftSlipManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQLeftSlipManager.h; sourceTree = "<group>"; };
+		6892D3791EE7A1DB00F1B860 /* ZQLeftSlipManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQLeftSlipManager.m; sourceTree = "<group>"; };
+		6892D37B1EE7A46B00F1B860 /* DeviceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceTableViewCell.h; sourceTree = "<group>"; };
+		6892D37C1EE7A46B00F1B860 /* DeviceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceTableViewCell.m; sourceTree = "<group>"; };
+		6892D37E1EE7A6C300F1B860 /* LeftForAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftForAboutViewController.h; sourceTree = "<group>"; };
+		6892D37F1EE7A6C300F1B860 /* LeftForAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftForAboutViewController.m; sourceTree = "<group>"; };
+		6892D3811EE7A70A00F1B860 /* LeftBarTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftBarTableViewCell.h; sourceTree = "<group>"; };
+		6892D3821EE7A70A00F1B860 /* LeftBarTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftBarTableViewCell.m; sourceTree = "<group>"; };
+		6892D3841EE7A85700F1B860 /* SheetEditDeviceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheetEditDeviceView.h; sourceTree = "<group>"; };
+		6892D3851EE7A85700F1B860 /* SheetEditDeviceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SheetEditDeviceView.m; sourceTree = "<group>"; };
+		6892D3871EE7A8D800F1B860 /* EditDeviceCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditDeviceCollectionViewCell.h; sourceTree = "<group>"; };
+		6892D3881EE7A8D800F1B860 /* EditDeviceCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditDeviceCollectionViewCell.m; sourceTree = "<group>"; };
+		6892D3921EE7AF4A00F1B860 /* 修改密码.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "修改密码.png"; sourceTree = "<group>"; };
+		6892D3931EE7AF4A00F1B860 /* 修改昵称.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "修改昵称.png"; sourceTree = "<group>"; };
+		6892D3941EE7AF4A00F1B860 /* 关于.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关于.png"; sourceTree = "<group>"; };
+		6892D3951EE7AF4A00F1B860 /* 删除.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除.png"; sourceTree = "<group>"; };
+		6892D3961EE7AF4A00F1B860 /* 室温144px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "室温144px.png"; sourceTree = "<group>"; };
+		6892D3971EE7AF4A00F1B860 /* 密码.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "密码.png"; sourceTree = "<group>"; };
+		6892D3981EE7AF4A00F1B860 /* 搜索设备.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索设备.png"; sourceTree = "<group>"; };
+		6892D3991EE7AF4A00F1B860 /* 更多@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "更多@3x.png"; sourceTree = "<group>"; };
+		6892D39A1EE7AF4A00F1B860 /* 添加@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加@3x.png"; sourceTree = "<group>"; };
+		6892D39B1EE7AF4A00F1B860 /* 用户名.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "用户名.png"; sourceTree = "<group>"; };
+		6892D39D1EE7AF4A00F1B860 /* 设置.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置.png"; sourceTree = "<group>"; };
+		6892D39E1EE7AF4A00F1B860 /* 返回@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回@3x.png"; sourceTree = "<group>"; };
+		6892D39F1EE7AF4A00F1B860 /* 退出.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "退出.png"; sourceTree = "<group>"; };
+		6892D3AE1EE7CEEB00F1B860 /* SearchDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchDeviceViewController.h; sourceTree = "<group>"; };
+		6892D3AF1EE7CEEB00F1B860 /* SearchDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchDeviceViewController.m; sourceTree = "<group>"; };
+		6892D3B11EE7CF2E00F1B860 /* RippleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RippleView.h; sourceTree = "<group>"; };
+		6892D3B21EE7CF2E00F1B860 /* RippleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RippleView.m; sourceTree = "<group>"; };
+		6892D3B41EE7D17000F1B860 /* DeviceInfoEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfoEditViewController.h; sourceTree = "<group>"; };
+		6892D3B51EE7D17000F1B860 /* DeviceInfoEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfoEditViewController.m; sourceTree = "<group>"; };
+		6892D3B71EE7EB4600F1B860 /* EditNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditNameViewController.h; sourceTree = "<group>"; };
+		6892D3B81EE7EB4600F1B860 /* EditNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditNameViewController.m; sourceTree = "<group>"; };
+		6892D3BD1EE7EF2E00F1B860 /* EditPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditPasswordViewController.h; sourceTree = "<group>"; };
+		6892D3BE1EE7EF2E00F1B860 /* EditPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditPasswordViewController.m; sourceTree = "<group>"; };
+		6892D3C01EE7F49400F1B860 /* AboutWeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutWeViewController.h; sourceTree = "<group>"; };
+		6892D3C11EE7F49400F1B860 /* AboutWeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutWeViewController.m; sourceTree = "<group>"; };
+		6892D3C31EE7F50D00F1B860 /* SettingDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingDeviceViewController.h; sourceTree = "<group>"; };
+		6892D3C41EE7F50D00F1B860 /* SettingDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingDeviceViewController.m; sourceTree = "<group>"; };
+		6892D3C61EE7F56D00F1B860 /* SettingDeviceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingDeviceTableViewCell.h; sourceTree = "<group>"; };
+		6892D3C71EE7F56D00F1B860 /* SettingDeviceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingDeviceTableViewCell.m; sourceTree = "<group>"; };
+		6892D3CC1EE7F8F900F1B860 /* 简体中文.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "简体中文.png"; sourceTree = "<group>"; };
+		6892D3CD1EE7F8F900F1B860 /* 澳柯玛声音@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "澳柯玛声音@3x.png"; sourceTree = "<group>"; };
+		6892D3CE1EE7F8F900F1B860 /* English.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = English.png; sourceTree = "<group>"; };
+		6892D3CF1EE7F8F900F1B860 /* 澳柯玛语言@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "澳柯玛语言@3x.png"; sourceTree = "<group>"; };
+		6892D3D01EE7F8F900F1B860 /* 澳柯玛震动@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "澳柯玛震动@3x.png"; sourceTree = "<group>"; };
+		6892D3D61EE7FB5700F1B860 /* AddDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDeviceViewController.h; sourceTree = "<group>"; };
+		6892D3D71EE7FB5700F1B860 /* AddDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddDeviceViewController.m; sourceTree = "<group>"; };
+		6892D3D91EE8082700F1B860 /* 箭头.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "箭头.png"; sourceTree = "<group>"; };
+		68EEBC741F02455000F4B36D /* 向下箭头.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "向下箭头.png"; sourceTree = "<group>"; };
+		68EEBC761F02496600F4B36D /* 63下拉显示.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "63下拉显示.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		685A72721EE67981007C1C96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6892D2F11EE78B5D00F1B860 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685A728B1EE67981007C1C96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685A72961EE67981007C1C96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6821495A1EE8E55B00B4DB58 /* DeviceControllers */ = {
+			isa = PBXGroup;
+			children = (
+				682149661EE8EFD500B4DB58 /* DeviceNavigationController.h */,
+				682149671EE8EFD500B4DB58 /* DeviceNavigationController.m */,
+				6821495B1EE8E58F00B4DB58 /* DeviceTabBarController.h */,
+				6821495C1EE8E58F00B4DB58 /* DeviceTabBarController.m */,
+				6821495E1EE8E78B00B4DB58 /* DeviceOperationViewController.h */,
+				6821495F1EE8E78B00B4DB58 /* DeviceOperationViewController.m */,
+				682149611EE8E7BD00B4DB58 /* SmartSettingViewController.h */,
+				682149621EE8E7BD00B4DB58 /* SmartSettingViewController.m */,
+				572DC2EC1EED0EF50017AF8B /* TimersViewController.h */,
+				572DC2ED1EED0EF50017AF8B /* TimersViewController.m */,
+				68693A5B1EEE3CB600F41FD7 /* AddTimerViewController.h */,
+				68693A5C1EEE3CB600F41FD7 /* AddTimerViewController.m */,
+			);
+			path = DeviceControllers;
+			sourceTree = "<group>";
+		};
+		6821496E1EE9224600B4DB58 /* bannar */ = {
+			isa = PBXGroup;
+			children = (
+				6821496F1EE9224600B4DB58 /* banner2@3x.png */,
+				682149701EE9224600B4DB58 /* banner3@3x.png */,
+				682149711EE9224600B4DB58 /* banner_default@3x.png */,
+			);
+			path = bannar;
+			sourceTree = "<group>";
+		};
+		685A726C1EE67981007C1C96 = {
+			isa = PBXGroup;
+			children = (
+				685A72771EE67981007C1C96 /* ThermostatDevicePro */,
+				685A72911EE67981007C1C96 /* ThermostatDeviceProTests */,
+				685A729C1EE67981007C1C96 /* ThermostatDeviceProUITests */,
+				685A72761EE67981007C1C96 /* Products */,
+				6892D2EF1EE78B5D00F1B860 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		685A72761EE67981007C1C96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				685A72751EE67981007C1C96 /* ThermostatDevicePro.app */,
+				685A728E1EE67981007C1C96 /* ThermostatDeviceProTests.xctest */,
+				685A72991EE67981007C1C96 /* ThermostatDeviceProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		685A72771EE67981007C1C96 /* ThermostatDevicePro */ = {
+			isa = PBXGroup;
+			children = (
+				685A727B1EE67981007C1C96 /* AppDelegate.h */,
+				685A727C1EE67981007C1C96 /* AppDelegate.m */,
+				685A72BE1EE6BCB8007C1C96 /* ImagesSource */,
+				685A72AB1EE679E7007C1C96 /* Common */,
+				6892D2AC1EE7894000F1B860 /* Controller */,
+				685A72AF1EE67A94007C1C96 /* Model */,
+				6892D3171EE78EE100F1B860 /* View */,
+				6892D2CA1EE78B1C00F1B860 /* Vendor */,
+				685A72841EE67981007C1C96 /* Assets.xcassets */,
+				685A72891EE67981007C1C96 /* Info.plist */,
+				685A72781EE67981007C1C96 /* Supporting Files */,
+			);
+			path = ThermostatDevicePro;
+			sourceTree = "<group>";
+		};
+		685A72781EE67981007C1C96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				685A72791EE67981007C1C96 /* main.m */,
+				6892D2B81EE78A1300F1B860 /* PrefixHeader.pch */,
+				6892D2F41EE78CA800F1B860 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		685A72911EE67981007C1C96 /* ThermostatDeviceProTests */ = {
+			isa = PBXGroup;
+			children = (
+				685A72921EE67981007C1C96 /* ThermostatDeviceProTests.m */,
+				685A72941EE67981007C1C96 /* Info.plist */,
+			);
+			path = ThermostatDeviceProTests;
+			sourceTree = "<group>";
+		};
+		685A729C1EE67981007C1C96 /* ThermostatDeviceProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				685A729D1EE67981007C1C96 /* ThermostatDeviceProUITests.m */,
+				685A729F1EE67981007C1C96 /* Info.plist */,
+			);
+			path = ThermostatDeviceProUITests;
+			sourceTree = "<group>";
+		};
+		685A72AB1EE679E7007C1C96 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6892D2B91EE78AEB00F1B860 /* Category */,
+				6892D2C01EE78AEB00F1B860 /* Extension */,
+				685A72AC1EE67A0E007C1C96 /* AppDataManager.h */,
+				685A72AD1EE67A0E007C1C96 /* AppDataManager.m */,
+				685A72B61EE6980D007C1C96 /* EnumList.h */,
+				6892D2B71EE789E400F1B860 /* AppUtil.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		685A72AF1EE67A94007C1C96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				685A72B01EE67AAF007C1C96 /* ThermostatDeviceModel.h */,
+				685A72B11EE67AAF007C1C96 /* ThermostatDeviceModel.m */,
+				685A72B31EE68B70007C1C96 /* DeviceTimerModel.h */,
+				685A72B41EE68B70007C1C96 /* DeviceTimerModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		685A72BE1EE6BCB8007C1C96 /* ImagesSource */ = {
+			isa = PBXGroup;
+			children = (
+				6821496E1EE9224600B4DB58 /* bannar */,
+				6892D3911EE7AF4A00F1B860 /* 通用图标 */,
+				685A72CA1EE6BCB9007C1C96 /* IOS设备图.png */,
+				68472EF31EF7B6C100C95AAA /* i8_制热.png */,
+				68472EF41EF7B6C100C95AAA /* i8_制冷.png */,
+				68472EF51EF7B6C100C95AAA /* i8_送风.png */,
+				68472EF61EF7B6C100C95AAA /* i8_高斯模糊.png */,
+				68EEBC761F02496600F4B36D /* 63下拉显示.png */,
+				680EE0781EF0DBCD00A41580 /* 24小时温度曲线@3x.png */,
+				6824E9D31EEA363A00EC68A7 /* off@3x.png */,
+				6824E9D41EEA363A00EC68A7 /* on@3x.png */,
+				685A72CD1EE6BCB9007C1C96 /* 关3@.png */,
+				685A72CE1EE6BCB9007C1C96 /* 切图_213@.png */,
+				685A72D51EE6BCB9007C1C96 /* 定时@3x.png */,
+				685A72D61EE6BCB9007C1C96 /* 定时关@3x.png */,
+				685A72D71EE6BCB9007C1C96 /* 定时关闭3@.png */,
+				685A72D81EE6BCB9007C1C96 /* 定时开@3x.png */,
+				685A72D91EE6BCB9007C1C96 /* 定时开启3@.png */,
+				685A72DA1EE6BCB9007C1C96 /* 定时首页定时点击3@.png */,
+				685A72DB1EE6BCB9007C1C96 /* 定时首页定时默认3@.png */,
+				685A72DC1EE6BCB9007C1C96 /* 定时首页阶段定时点击3@.png */,
+				685A72DD1EE6BCB9007C1C96 /* 定时首页阶段定时默认3@.png */,
+				685A72DF1EE6BCB9007C1C96 /* 开3@.png */,
+				685A72E01EE6BCB9007C1C96 /* 开关@3x.png */,
+				685A72E11EE6BCB9007C1C96 /* 情景@3x.png */,
+				685A72E21EE6BCB9007C1C96 /* 情景_恒温@3x.png */,
+				685A72E31EE6BCB9007C1C96 /* 情景_离家@3x.png */,
+				685A72E41EE6BCB9007C1C96 /* 情景_节能@3x.png */,
+				685A72E51EE6BCB9007C1C96 /* 智能恒温@3x.png */,
+				685A72E71EE6BCB9007C1C96 /* 模式@3x.png */,
+				685A72E81EE6BCB9007C1C96 /* 温度曲线@3x.png */,
+				685A72EA1EE6BCB9007C1C96 /* 自动1@3x.png */,
+				685A72EB1EE6BCB9007C1C96 /* 自动2@3x.png */,
+				685A72EC1EE6BCB9007C1C96 /* 自动3@3x.png */,
+				685A72ED1EE6BCB9007C1C96 /* 遥控面板@3x.png */,
+				682149641EE8ED9600B4DB58 /* 智能设置@3x.png */,
+				68472EFF1EF7C27400C95AAA /* 湿度@3x.png */,
+				68472F001EF7C27400C95AAA /* 室温.png */,
+				685A72EF1EE6BCB9007C1C96 /* 锁@3x.png */,
+				6824E9DB1EEA436900EC68A7 /* 锁(小)@3x.png */,
+				6824E9DF1EEA469200EC68A7 /* 童锁开关除外@3x.png */,
+				685A72F01EE6BCB9007C1C96 /* 阶段定时关闭3@.png */,
+				685A72F11EE6BCB9007C1C96 /* 阶段定时开启3@.png */,
+				685A72F21EE6BCB9007C1C96 /* 风速@3x.png */,
+				682149691EE8FD3100B4DB58 /* 三点@3x.png */,
+				682149751EE9299800B4DB58 /* i8_自动.png */,
+			);
+			path = ImagesSource;
+			sourceTree = "<group>";
+		};
+		6892D2AC1EE7894000F1B860 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6892D2AD1EE7894000F1B860 /* Base */,
+				6892D3741EE7A18800F1B860 /* GeneralControlles */,
+				6821495A1EE8E55B00B4DB58 /* DeviceControllers */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6892D2AD1EE7894000F1B860 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6892D2AE1EE7894000F1B860 /* BaseNavigationControllerViewController.h */,
+				6892D2AF1EE7894000F1B860 /* BaseNavigationControllerViewController.m */,
+				6892D2B01EE7894000F1B860 /* BaseTabarViewController.h */,
+				6892D2B11EE7894000F1B860 /* BaseTabarViewController.m */,
+				6892D2B21EE7894000F1B860 /* BaseViewController.h */,
+				6892D2B31EE7894000F1B860 /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6892D2B91EE78AEB00F1B860 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6892D2BA1EE78AEB00F1B860 /* NSString+Add.h */,
+				6892D2BB1EE78AEB00F1B860 /* NSString+Add.m */,
+				6892D2BC1EE78AEB00F1B860 /* UIColor+Add.h */,
+				6892D2BD1EE78AEB00F1B860 /* UIColor+Add.m */,
+				6892D2BE1EE78AEB00F1B860 /* UIView+Add.h */,
+				6892D2BF1EE78AEB00F1B860 /* UIView+Add.m */,
+				68472EED1EF76B0600C95AAA /* UITextField+NumberFormat.h */,
+				68472EEE1EF76B0600C95AAA /* UITextField+NumberFormat.m */,
+				68472F031EF8B07200C95AAA /* UIDevice+Platform.h */,
+				68472F041EF8B07200C95AAA /* UIDevice+Platform.m */,
+				68472F061EF8C10A00C95AAA /* UINavigationBar+Awesome.h */,
+				68472F071EF8C10A00C95AAA /* UINavigationBar+Awesome.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		6892D2C01EE78AEB00F1B860 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6892D2C11EE78AEB00F1B860 /* BorderTextField.h */,
+				6892D2C21EE78AEB00F1B860 /* BorderTextField.m */,
+				6892D2C31EE78AEB00F1B860 /* VerticalAlignmentLabel.h */,
+				6892D2C41EE78AEB00F1B860 /* VerticalAlignmentLabel.m */,
+				68472EF01EF7A87C00C95AAA /* EnumListString.h */,
+				68472EF11EF7A87C00C95AAA /* EnumListString.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6892D2CA1EE78B1C00F1B860 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				6892D2CB1EE78B1C00F1B860 /* FMDB */,
+				6892D2D71EE78B1C00F1B860 /* MBProgressHUD */,
+				6892D2DC1EE78B1C00F1B860 /* ZYBannerView */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		6892D2CB1EE78B1C00F1B860 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				6892D2CC1EE78B1C00F1B860 /* FMDatabase.h */,
+				6892D2CD1EE78B1C00F1B860 /* FMDatabase.m */,
+				6892D2CE1EE78B1C00F1B860 /* FMDatabaseAdditions.h */,
+				6892D2CF1EE78B1C00F1B860 /* FMDatabaseAdditions.m */,
+				6892D2D01EE78B1C00F1B860 /* FMDatabasePool.h */,
+				6892D2D11EE78B1C00F1B860 /* FMDatabasePool.m */,
+				6892D2D21EE78B1C00F1B860 /* FMDatabaseQueue.h */,
+				6892D2D31EE78B1C00F1B860 /* FMDatabaseQueue.m */,
+				6892D2D41EE78B1C00F1B860 /* FMDB.h */,
+				6892D2D51EE78B1C00F1B860 /* FMResultSet.h */,
+				6892D2D61EE78B1C00F1B860 /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		6892D2D71EE78B1C00F1B860 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				6892D2D81EE78B1C00F1B860 /* MBProgressHUD+Add.h */,
+				6892D2D91EE78B1C00F1B860 /* MBProgressHUD+Add.m */,
+				6892D2DA1EE78B1C00F1B860 /* MBProgressHUD.h */,
+				6892D2DB1EE78B1C00F1B860 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		6892D2DC1EE78B1C00F1B860 /* ZYBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				6892D2DD1EE78B1C00F1B860 /* ZYBannerCell.h */,
+				6892D2DE1EE78B1C00F1B860 /* ZYBannerCell.m */,
+				6892D2DF1EE78B1C00F1B860 /* ZYBannerFooter.h */,
+				6892D2E01EE78B1C00F1B860 /* ZYBannerFooter.m */,
+				6892D2E11EE78B1C00F1B860 /* ZYBannerView.bundle */,
+				6892D2E21EE78B1C00F1B860 /* ZYBannerView.h */,
+				6892D2E31EE78B1C00F1B860 /* ZYBannerView.m */,
+			);
+			path = ZYBannerView;
+			sourceTree = "<group>";
+		};
+		6892D2EF1EE78B5D00F1B860 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6892D2F01EE78B5D00F1B860 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6892D3171EE78EE100F1B860 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6892D37B1EE7A46B00F1B860 /* DeviceTableViewCell.h */,
+				6892D37C1EE7A46B00F1B860 /* DeviceTableViewCell.m */,
+				6892D3811EE7A70A00F1B860 /* LeftBarTableViewCell.h */,
+				6892D3821EE7A70A00F1B860 /* LeftBarTableViewCell.m */,
+				6892D3841EE7A85700F1B860 /* SheetEditDeviceView.h */,
+				6892D3851EE7A85700F1B860 /* SheetEditDeviceView.m */,
+				6892D3871EE7A8D800F1B860 /* EditDeviceCollectionViewCell.h */,
+				6892D3881EE7A8D800F1B860 /* EditDeviceCollectionViewCell.m */,
+				6892D3B11EE7CF2E00F1B860 /* RippleView.h */,
+				6892D3B21EE7CF2E00F1B860 /* RippleView.m */,
+				6892D3C61EE7F56D00F1B860 /* SettingDeviceTableViewCell.h */,
+				6892D3C71EE7F56D00F1B860 /* SettingDeviceTableViewCell.m */,
+				6821496B1EE91B7B00B4DB58 /* RoundShowView.h */,
+				6821496C1EE91B7B00B4DB58 /* RoundShowView.m */,
+				5761CEC01EE98FAA00396C62 /* ZQPickerView.h */,
+				5761CEC11EE98FAA00396C62 /* ZQPickerView.m */,
+				57D69B5A1EECE070001638C2 /* SmartTableViewCell.h */,
+				57D69B5B1EECE070001638C2 /* SmartTableViewCell.m */,
+				680AD2CC1EEF8225006D5B85 /* EnumPickerView.h */,
+				680AD2CD1EEF8225006D5B85 /* EnumPickerView.m */,
+				680AD2CF1EEF8F28006D5B85 /* TimerListTableViewCell.h */,
+				680AD2D01EEF8F28006D5B85 /* TimerListTableViewCell.m */,
+				684BFB7F1F020A1300E5DBF9 /* AddTimerTableViewCell.h */,
+				684BFB801F020A1300E5DBF9 /* AddTimerTableViewCell.m */,
+				680EE0751EF0CFE500A41580 /* MenuView.h */,
+				680EE0761EF0CFE500A41580 /* MenuView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6892D3741EE7A18800F1B860 /* GeneralControlles */ = {
+			isa = PBXGroup;
+			children = (
+				6892D3781EE7A1DB00F1B860 /* ZQLeftSlipManager.h */,
+				6892D3791EE7A1DB00F1B860 /* ZQLeftSlipManager.m */,
+				6892D3751EE7A18800F1B860 /* DeviceListViewController.h */,
+				6892D3761EE7A18800F1B860 /* DeviceListViewController.m */,
+				6892D37E1EE7A6C300F1B860 /* LeftForAboutViewController.h */,
+				6892D37F1EE7A6C300F1B860 /* LeftForAboutViewController.m */,
+				6892D3AE1EE7CEEB00F1B860 /* SearchDeviceViewController.h */,
+				6892D3AF1EE7CEEB00F1B860 /* SearchDeviceViewController.m */,
+				6892D3B41EE7D17000F1B860 /* DeviceInfoEditViewController.h */,
+				6892D3B51EE7D17000F1B860 /* DeviceInfoEditViewController.m */,
+				6892D3B71EE7EB4600F1B860 /* EditNameViewController.h */,
+				6892D3B81EE7EB4600F1B860 /* EditNameViewController.m */,
+				6892D3BD1EE7EF2E00F1B860 /* EditPasswordViewController.h */,
+				6892D3BE1EE7EF2E00F1B860 /* EditPasswordViewController.m */,
+				6892D3C01EE7F49400F1B860 /* AboutWeViewController.h */,
+				6892D3C11EE7F49400F1B860 /* AboutWeViewController.m */,
+				6892D3C31EE7F50D00F1B860 /* SettingDeviceViewController.h */,
+				6892D3C41EE7F50D00F1B860 /* SettingDeviceViewController.m */,
+				6892D3D61EE7FB5700F1B860 /* AddDeviceViewController.h */,
+				6892D3D71EE7FB5700F1B860 /* AddDeviceViewController.m */,
+			);
+			path = GeneralControlles;
+			sourceTree = "<group>";
+		};
+		6892D3911EE7AF4A00F1B860 /* 通用图标 */ = {
+			isa = PBXGroup;
+			children = (
+				680EE0731EF0C70500A41580 /* 小三角@3x.png */,
+				6892D3D91EE8082700F1B860 /* 箭头.png */,
+				68EEBC741F02455000F4B36D /* 向下箭头.png */,
+				6892D3CC1EE7F8F900F1B860 /* 简体中文.png */,
+				6892D3CD1EE7F8F900F1B860 /* 澳柯玛声音@3x.png */,
+				6892D3CE1EE7F8F900F1B860 /* English.png */,
+				6892D3CF1EE7F8F900F1B860 /* 澳柯玛语言@3x.png */,
+				6892D3D01EE7F8F900F1B860 /* 澳柯玛震动@3x.png */,
+				6892D3921EE7AF4A00F1B860 /* 修改密码.png */,
+				6892D3931EE7AF4A00F1B860 /* 修改昵称.png */,
+				6892D3941EE7AF4A00F1B860 /* 关于.png */,
+				6892D3951EE7AF4A00F1B860 /* 删除.png */,
+				6892D3961EE7AF4A00F1B860 /* 室温144px.png */,
+				6892D3971EE7AF4A00F1B860 /* 密码.png */,
+				6892D3981EE7AF4A00F1B860 /* 搜索设备.png */,
+				6892D3991EE7AF4A00F1B860 /* 更多@3x.png */,
+				6892D39A1EE7AF4A00F1B860 /* 添加@3x.png */,
+				6892D39B1EE7AF4A00F1B860 /* 用户名.png */,
+				6892D39D1EE7AF4A00F1B860 /* 设置.png */,
+				6892D39E1EE7AF4A00F1B860 /* 返回@3x.png */,
+				6892D39F1EE7AF4A00F1B860 /* 退出.png */,
+				68693A591EEE23B700F41FD7 /* 添加Timer@3x.png */,
+			);
+			path = "通用图标";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		685A72741EE67981007C1C96 /* ThermostatDevicePro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685A72A21EE67981007C1C96 /* Build configuration list for PBXNativeTarget "ThermostatDevicePro" */;
+			buildPhases = (
+				685A72711EE67981007C1C96 /* Sources */,
+				685A72721EE67981007C1C96 /* Frameworks */,
+				685A72731EE67981007C1C96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThermostatDevicePro;
+			productName = ThermostatDevicePro;
+			productReference = 685A72751EE67981007C1C96 /* ThermostatDevicePro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		685A728D1EE67981007C1C96 /* ThermostatDeviceProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685A72A51EE67981007C1C96 /* Build configuration list for PBXNativeTarget "ThermostatDeviceProTests" */;
+			buildPhases = (
+				685A728A1EE67981007C1C96 /* Sources */,
+				685A728B1EE67981007C1C96 /* Frameworks */,
+				685A728C1EE67981007C1C96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				685A72901EE67981007C1C96 /* PBXTargetDependency */,
+			);
+			name = ThermostatDeviceProTests;
+			productName = ThermostatDeviceProTests;
+			productReference = 685A728E1EE67981007C1C96 /* ThermostatDeviceProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		685A72981EE67981007C1C96 /* ThermostatDeviceProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685A72A81EE67981007C1C96 /* Build configuration list for PBXNativeTarget "ThermostatDeviceProUITests" */;
+			buildPhases = (
+				685A72951EE67981007C1C96 /* Sources */,
+				685A72961EE67981007C1C96 /* Frameworks */,
+				685A72971EE67981007C1C96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				685A729B1EE67981007C1C96 /* PBXTargetDependency */,
+			);
+			name = ThermostatDeviceProUITests;
+			productName = ThermostatDeviceProUITests;
+			productReference = 685A72991EE67981007C1C96 /* ThermostatDeviceProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		685A726D1EE67981007C1C96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lyric;
+				TargetAttributes = {
+					685A72741EE67981007C1C96 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 2T4HE96GYT;
+						ProvisioningStyle = Automatic;
+					};
+					685A728D1EE67981007C1C96 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 2T4HE96GYT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 685A72741EE67981007C1C96;
+					};
+					685A72981EE67981007C1C96 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 2T4HE96GYT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 685A72741EE67981007C1C96;
+					};
+				};
+			};
+			buildConfigurationList = 685A72701EE67981007C1C96 /* Build configuration list for PBXProject "ThermostatDevicePro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 685A726C1EE67981007C1C96;
+			productRefGroup = 685A72761EE67981007C1C96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				685A72741EE67981007C1C96 /* ThermostatDevicePro */,
+				685A728D1EE67981007C1C96 /* ThermostatDeviceProTests */,
+				685A72981EE67981007C1C96 /* ThermostatDeviceProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		685A72731EE67981007C1C96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685A73011EE6BCB9007C1C96 /* 切图_213@.png in Resources */,
+				682149731EE9224600B4DB58 /* banner3@3x.png in Resources */,
+				682149651EE8ED9600B4DB58 /* 智能设置@3x.png in Resources */,
+				682149741EE9224600B4DB58 /* banner_default@3x.png in Resources */,
+				685A730B1EE6BCB9007C1C96 /* 定时开启3@.png in Resources */,
+				685A73141EE6BCB9007C1C96 /* 情景_恒温@3x.png in Resources */,
+				685A73171EE6BCB9007C1C96 /* 智能恒温@3x.png in Resources */,
+				6821496A1EE8FD3100B4DB58 /* 三点@3x.png in Resources */,
+				68472EFA1EF7B6C100C95AAA /* i8_高斯模糊.png in Resources */,
+				68693A5A1EEE23B700F41FD7 /* 添加Timer@3x.png in Resources */,
+				68472F011EF7C27400C95AAA /* 湿度@3x.png in Resources */,
+				6892D3A21EE7AF4A00F1B860 /* 关于.png in Resources */,
+				685A73001EE6BCB9007C1C96 /* 关3@.png in Resources */,
+				6824E9DC1EEA436900EC68A7 /* 锁(小)@3x.png in Resources */,
+				6892D3A91EE7AF4A00F1B860 /* 用户名.png in Resources */,
+				685A73151EE6BCB9007C1C96 /* 情景_离家@3x.png in Resources */,
+				685A73241EE6BCB9007C1C96 /* 风速@3x.png in Resources */,
+				6892D3A81EE7AF4A00F1B860 /* 添加@3x.png in Resources */,
+				685A731A1EE6BCB9007C1C96 /* 温度曲线@3x.png in Resources */,
+				6892D3DA1EE8082700F1B860 /* 箭头.png in Resources */,
+				685A73211EE6BCB9007C1C96 /* 锁@3x.png in Resources */,
+				6824E9D61EEA363A00EC68A7 /* on@3x.png in Resources */,
+				6824E9E01EEA469200EC68A7 /* 童锁开关除外@3x.png in Resources */,
+				6892D2ED1EE78B1C00F1B860 /* ZYBannerView.bundle in Resources */,
+				6892D3AC1EE7AF4A00F1B860 /* 返回@3x.png in Resources */,
+				685A73111EE6BCB9007C1C96 /* 开3@.png in Resources */,
+				685A73081EE6BCB9007C1C96 /* 定时关@3x.png in Resources */,
+				685A73191EE6BCB9007C1C96 /* 模式@3x.png in Resources */,
+				685A730D1EE6BCB9007C1C96 /* 定时首页定时默认3@.png in Resources */,
+				6892D3D11EE7F8F900F1B860 /* 简体中文.png in Resources */,
+				685A731C1EE6BCB9007C1C96 /* 自动1@3x.png in Resources */,
+				685A73071EE6BCB9007C1C96 /* 定时@3x.png in Resources */,
+				685A730A1EE6BCB9007C1C96 /* 定时开@3x.png in Resources */,
+				6892D3A51EE7AF4A00F1B860 /* 密码.png in Resources */,
+				6892D3AB1EE7AF4A00F1B860 /* 设置.png in Resources */,
+				6892D3D41EE7F8F900F1B860 /* 澳柯玛语言@3x.png in Resources */,
+				685A731D1EE6BCB9007C1C96 /* 自动2@3x.png in Resources */,
+				685A730E1EE6BCB9007C1C96 /* 定时首页阶段定时点击3@.png in Resources */,
+				6892D3D21EE7F8F900F1B860 /* 澳柯玛声音@3x.png in Resources */,
+				6892D3A41EE7AF4A00F1B860 /* 室温144px.png in Resources */,
+				6892D3A11EE7AF4A00F1B860 /* 修改昵称.png in Resources */,
+				685A73221EE6BCB9007C1C96 /* 阶段定时关闭3@.png in Resources */,
+				68EEBC771F02496600F4B36D /* 63下拉显示.png in Resources */,
+				685A72FD1EE6BCB9007C1C96 /* IOS设备图.png in Resources */,
+				6892D3A71EE7AF4A00F1B860 /* 更多@3x.png in Resources */,
+				6892D2F21EE78CA800F1B860 /* Localizable.strings in Resources */,
+				6892D3A01EE7AF4A00F1B860 /* 修改密码.png in Resources */,
+				685A73121EE6BCB9007C1C96 /* 开关@3x.png in Resources */,
+				685A731E1EE6BCB9007C1C96 /* 自动3@3x.png in Resources */,
+				6892D3AD1EE7AF4A00F1B860 /* 退出.png in Resources */,
+				680EE0741EF0C70500A41580 /* 小三角@3x.png in Resources */,
+				685A73091EE6BCB9007C1C96 /* 定时关闭3@.png in Resources */,
+				685A73231EE6BCB9007C1C96 /* 阶段定时开启3@.png in Resources */,
+				682149721EE9224600B4DB58 /* banner2@3x.png in Resources */,
+				68472EF91EF7B6C100C95AAA /* i8_送风.png in Resources */,
+				68472EF71EF7B6C100C95AAA /* i8_制热.png in Resources */,
+				68472EF81EF7B6C100C95AAA /* i8_制冷.png in Resources */,
+				680EE0791EF0DBCD00A41580 /* 24小时温度曲线@3x.png in Resources */,
+				685A73161EE6BCB9007C1C96 /* 情景_节能@3x.png in Resources */,
+				682149761EE9299800B4DB58 /* i8_自动.png in Resources */,
+				6892D3D51EE7F8F900F1B860 /* 澳柯玛震动@3x.png in Resources */,
+				68472F021EF7C27400C95AAA /* 室温.png in Resources */,
+				685A72851EE67981007C1C96 /* Assets.xcassets in Resources */,
+				685A73131EE6BCB9007C1C96 /* 情景@3x.png in Resources */,
+				6892D3A61EE7AF4A00F1B860 /* 搜索设备.png in Resources */,
+				68EEBC751F02455000F4B36D /* 向下箭头.png in Resources */,
+				685A730C1EE6BCB9007C1C96 /* 定时首页定时点击3@.png in Resources */,
+				6892D3D31EE7F8F900F1B860 /* English.png in Resources */,
+				685A731F1EE6BCB9007C1C96 /* 遥控面板@3x.png in Resources */,
+				685A730F1EE6BCB9007C1C96 /* 定时首页阶段定时默认3@.png in Resources */,
+				6824E9D51EEA363A00EC68A7 /* off@3x.png in Resources */,
+				6892D3A31EE7AF4A00F1B860 /* 删除.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685A728C1EE67981007C1C96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685A72971EE67981007C1C96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		685A72711EE67981007C1C96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6892D2EB1EE78B1C00F1B860 /* ZYBannerCell.m in Sources */,
+				682149681EE8EFD500B4DB58 /* DeviceNavigationController.m in Sources */,
+				6892D2C81EE78AEC00F1B860 /* BorderTextField.m in Sources */,
+				6892D2B51EE7894000F1B860 /* BaseTabarViewController.m in Sources */,
+				6892D2B61EE7894000F1B860 /* BaseViewController.m in Sources */,
+				6892D2E41EE78B1C00F1B860 /* FMDatabase.m in Sources */,
+				6892D37D1EE7A46B00F1B860 /* DeviceTableViewCell.m in Sources */,
+				6892D3B91EE7EB4600F1B860 /* EditNameViewController.m in Sources */,
+				6892D3B31EE7CF2E00F1B860 /* RippleView.m in Sources */,
+				6892D3C81EE7F56D00F1B860 /* SettingDeviceTableViewCell.m in Sources */,
+				6892D2B41EE7894000F1B860 /* BaseNavigationControllerViewController.m in Sources */,
+				6892D2E81EE78B1C00F1B860 /* FMResultSet.m in Sources */,
+				6892D37A1EE7A1DB00F1B860 /* ZQLeftSlipManager.m in Sources */,
+				680EE0771EF0CFE500A41580 /* MenuView.m in Sources */,
+				685A72B51EE68B70007C1C96 /* DeviceTimerModel.m in Sources */,
+				68472F081EF8C10A00C95AAA /* UINavigationBar+Awesome.m in Sources */,
+				6892D2E91EE78B1C00F1B860 /* MBProgressHUD+Add.m in Sources */,
+				680AD2D11EEF8F28006D5B85 /* TimerListTableViewCell.m in Sources */,
+				6892D2C71EE78AEC00F1B860 /* UIView+Add.m in Sources */,
+				6892D2E51EE78B1C00F1B860 /* FMDatabaseAdditions.m in Sources */,
+				6892D2C61EE78AEC00F1B860 /* UIColor+Add.m in Sources */,
+				685A72AE1EE67A0E007C1C96 /* AppDataManager.m in Sources */,
+				6892D3B61EE7D17000F1B860 /* DeviceInfoEditViewController.m in Sources */,
+				684BFB811F020A1300E5DBF9 /* AddTimerTableViewCell.m in Sources */,
+				5761CEC21EE98FAA00396C62 /* ZQPickerView.m in Sources */,
+				68472EF21EF7A87C00C95AAA /* EnumListString.m in Sources */,
+				6892D3801EE7A6C300F1B860 /* LeftForAboutViewController.m in Sources */,
+				6892D3C51EE7F50D00F1B860 /* SettingDeviceViewController.m in Sources */,
+				6892D3C21EE7F49400F1B860 /* AboutWeViewController.m in Sources */,
+				680AD2CE1EEF8225006D5B85 /* EnumPickerView.m in Sources */,
+				6892D3BF1EE7EF2E00F1B860 /* EditPasswordViewController.m in Sources */,
+				57D69B5C1EECE070001638C2 /* SmartTableViewCell.m in Sources */,
+				68693A5D1EEE3CB600F41FD7 /* AddTimerViewController.m in Sources */,
+				6892D2EE1EE78B1C00F1B860 /* ZYBannerView.m in Sources */,
+				68472EEF1EF76B0600C95AAA /* UITextField+NumberFormat.m in Sources */,
+				6892D3771EE7A18800F1B860 /* DeviceListViewController.m in Sources */,
+				6892D2C91EE78AEC00F1B860 /* VerticalAlignmentLabel.m in Sources */,
+				6892D2EA1EE78B1C00F1B860 /* MBProgressHUD.m in Sources */,
+				572DC2EE1EED0EF50017AF8B /* TimersViewController.m in Sources */,
+				6821496D1EE91B7B00B4DB58 /* RoundShowView.m in Sources */,
+				685A72B21EE67AAF007C1C96 /* ThermostatDeviceModel.m in Sources */,
+				6821495D1EE8E58F00B4DB58 /* DeviceTabBarController.m in Sources */,
+				6892D2C51EE78AEB00F1B860 /* NSString+Add.m in Sources */,
+				685A727D1EE67981007C1C96 /* AppDelegate.m in Sources */,
+				6892D2EC1EE78B1C00F1B860 /* ZYBannerFooter.m in Sources */,
+				685A727A1EE67981007C1C96 /* main.m in Sources */,
+				6892D3861EE7A85700F1B860 /* SheetEditDeviceView.m in Sources */,
+				6892D3891EE7A8D800F1B860 /* EditDeviceCollectionViewCell.m in Sources */,
+				6892D3B01EE7CEEB00F1B860 /* SearchDeviceViewController.m in Sources */,
+				68472F051EF8B07200C95AAA /* UIDevice+Platform.m in Sources */,
+				6892D2E61EE78B1C00F1B860 /* FMDatabasePool.m in Sources */,
+				6892D3D81EE7FB5700F1B860 /* AddDeviceViewController.m in Sources */,
+				682149601EE8E78B00B4DB58 /* DeviceOperationViewController.m in Sources */,
+				6892D3831EE7A70A00F1B860 /* LeftBarTableViewCell.m in Sources */,
+				6892D2E71EE78B1C00F1B860 /* FMDatabaseQueue.m in Sources */,
+				682149631EE8E7BD00B4DB58 /* SmartSettingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685A728A1EE67981007C1C96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685A72931EE67981007C1C96 /* ThermostatDeviceProTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685A72951EE67981007C1C96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685A729E1EE67981007C1C96 /* ThermostatDeviceProUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		685A72901EE67981007C1C96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 685A72741EE67981007C1C96 /* ThermostatDevicePro */;
+			targetProxy = 685A728F1EE67981007C1C96 /* PBXContainerItemProxy */;
+		};
+		685A729B1EE67981007C1C96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 685A72741EE67981007C1C96 /* ThermostatDevicePro */;
+			targetProxy = 685A729A1EE67981007C1C96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6892D2F41EE78CA800F1B860 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6892D2F61EE78CC600F1B860 /* zh-Hans */,
+				6892D2F71EE78CF400F1B860 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		685A72A01EE67981007C1C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		685A72A11EE67981007C1C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		685A72A31EE67981007C1C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2T4HE96GYT;
+				GCC_PREFIX_HEADER = ThermostatDevicePro/PrefixHeader.pch;
+				INFOPLIST_FILE = ThermostatDevicePro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyric.ThermostatDevicePro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		685A72A41EE67981007C1C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2T4HE96GYT;
+				GCC_PREFIX_HEADER = ThermostatDevicePro/PrefixHeader.pch;
+				INFOPLIST_FILE = ThermostatDevicePro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyric.ThermostatDevicePro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		685A72A61EE67981007C1C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2T4HE96GYT;
+				INFOPLIST_FILE = ThermostatDeviceProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyric.ThermostatDeviceProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThermostatDevicePro.app/ThermostatDevicePro";
+			};
+			name = Debug;
+		};
+		685A72A71EE67981007C1C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2T4HE96GYT;
+				INFOPLIST_FILE = ThermostatDeviceProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyric.ThermostatDeviceProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThermostatDevicePro.app/ThermostatDevicePro";
+			};
+			name = Release;
+		};
+		685A72A91EE67981007C1C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2T4HE96GYT;
+				INFOPLIST_FILE = ThermostatDeviceProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyric.ThermostatDeviceProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ThermostatDevicePro;
+			};
+			name = Debug;
+		};
+		685A72AA1EE67981007C1C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2T4HE96GYT;
+				INFOPLIST_FILE = ThermostatDeviceProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyric.ThermostatDeviceProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ThermostatDevicePro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		685A72701EE67981007C1C96 /* Build configuration list for PBXProject "ThermostatDevicePro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685A72A01EE67981007C1C96 /* Debug */,
+				685A72A11EE67981007C1C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		685A72A21EE67981007C1C96 /* Build configuration list for PBXNativeTarget "ThermostatDevicePro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685A72A31EE67981007C1C96 /* Debug */,
+				685A72A41EE67981007C1C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		685A72A51EE67981007C1C96 /* Build configuration list for PBXNativeTarget "ThermostatDeviceProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685A72A61EE67981007C1C96 /* Debug */,
+				685A72A71EE67981007C1C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		685A72A81EE67981007C1C96 /* Build configuration list for PBXNativeTarget "ThermostatDeviceProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685A72A91EE67981007C1C96 /* Debug */,
+				685A72AA1EE67981007C1C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 685A726D1EE67981007C1C96 /* Project object */;
+}
